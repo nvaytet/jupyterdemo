@@ -6,9 +6,11 @@ name: jupyterdemo
 
 channels:
   - conda-forge
+  - scipp
 
 dependencies:
   - numpy
   - matplotlib
   - ipyvolume
   - ipympl
+  - scipp
